@@ -21,22 +21,22 @@ body{
 
 .quote-box {
  border:3px;
- background:linear-gradient(#ccc,#eee,#ccc);
+ background:#eee;
  padding: 40px;
  border-radius:10px;
- margin: 50px;
+ margin: 0px 200px 0px 200px;
 }
 
 
 .blockquote {
 	font-weight: 400;
 	font-size: 2.5em;
-	text-align: justify;
+	text-align: center;
 	border:2px solid #eee;
 	border-radius: 2px;
 	background: linear-gradient(0deg,#eee,#ccc,#eee);
 }
-.blockquote::before{
+#quote::before{
 	content: "\f10d";
 	font-family:fontawesome;
     display:inline-block;
