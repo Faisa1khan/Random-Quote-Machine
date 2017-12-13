@@ -56,7 +56,7 @@ justify-content: center;
 	text-align: center;
 	border:2px solid #eee;
 	border-radius: 2px;
-	background: linear-gradient(0deg,#eee,#ccc,#eee);
+	background: linear-gradient(0deg,#fff,#eee,#fff);
 }
 #quote::before{
 	content: "\f10d";
